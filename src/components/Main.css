@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+  transform: translateX(-270px);
+}
+
+.main__input {
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.main__inputForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 380px;
+}
+
+.button {
+  display: none;
+}
+
+.main__inputFormText {
+  flex: 0.9;
+}

@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: wheat;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10px;
+}
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__left img {
+  height: 4rem;
+  width: auto;
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__right button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}

@@ -1,0 +1,18 @@
+.sidebar {
+  border: 1px solid goldenrod;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  margin-right: 5rem;
+  padding: 1rem;
+  transform: translateX(-270px);
+}
+
+.sidebar__top {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 2px solid goldenrod;
+}
+
+.sidebar__bottom {
+  margin-top: 2rem;
+}
